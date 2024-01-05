@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+    --cor0: #7900ac;
+    --cor1: #9032ab;
+    --cor2: #af69cd;
+    --cor3: #cb9bde;
+    --cor4: #efe8f1;
+    --cor5: #ffffff;
+
+    --fonte-padrao: poppins, Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--fonte-padrao);
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--cor4);
+}
+main {
+    background-color: var(--cor5);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 90vw;
+    max-width: 800px;
+    box-shadow: 2px 2px 20px #cacaca;
+}
+h1 {
+    padding: 20px 0px 20px 20px;
+    color: var(--cor0);
+}
+h2 {
+    padding: 20px 0px 20px 20px;
+    color: var(--cor0);
+}
+h3 {
+    padding: 20px 0px 20px 20px;
+    color: var(--cor0);  
+}
+h4 {
+    padding: 20px 0px 0px 20px;
+    color: var(--cor2);  
+}
+#img1 {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+p {
+    text-align: justify;
+    padding: 15px 30px 0px 30px;
+    font-size: 0.9em;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+footer {
+    background-color: var(--cor4);
+    min-height: 500px;
+    padding-bottom: 30px;
+}
+footer > div {
+    background-color: var(--cor2);
+}
+footer > div > p {
+    color: var(--cor5);
+    text-indent: 0px;
+    padding: 12px 0px 12px 0px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1em;
+}
+#logo {
+    display: block;
+    margin: auto;
+    width: 55vw;
+    height: 55vw;
+    max-width: 350px;
+    max-height: 350px;
+}
+footer > p {
+    text-indent: none;
+    text-align: center;
+    color: var(--cor1);
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 0px 20vw 0px 20vw;
+}
+#fp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon {
+    width: 22px;
+    height: 22px;
+    padding: 0px 2px 0px 2px;
+}
+span {
+    display: table;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 2px solid var(--cor0);
+}
+span p {
+    text-align: center;
+}

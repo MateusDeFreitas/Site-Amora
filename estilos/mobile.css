@@ -1,0 +1,6 @@
+footer > p {
+    padding: 0px 10vw 0px 10vw;
+}
+footer > div > p {
+    font-size: 1.7em;
+}
