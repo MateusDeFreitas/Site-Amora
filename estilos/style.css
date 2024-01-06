@@ -147,11 +147,12 @@ span {
     display: table;
     margin: auto;
     margin-bottom: 20px;
-    padding: 15px 20px 15px 0px;
+    padding: 15px 25px 15px 25px;
     border-bottom: 2px solid var(--cor0);
 }
-header > span > p {
+p#email {
     text-align: center;
     padding: 0;
     margin: 0;
+    text-indent: 0;
 }

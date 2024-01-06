@@ -9,6 +9,7 @@ header ul{
     display: block;
     text-align: center;
     cursor: pointer;
+    border-bottom: none;
     color: var(--cor5);
     padding: 0;
     margin: 0;
