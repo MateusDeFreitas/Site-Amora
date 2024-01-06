@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 
 :root {
     --cor0: #7900ac;
@@ -15,11 +16,44 @@
 
 * {
     font-family: var(--fonte-padrao);
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body {
     background-color: var(--cor4);
+}
+header {
+    background-color: var(--cor0);
+    min-height: 150px;
+}
+h1#titulo {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--cor5);
+}
+#burguer {
+    display: none;
+}
+header ul{
+    padding: 0;
+    margin-left: 20px;
+}
+header li {
+    display: inline-block;
+}
+header a {
+    display: inline-block;
+    padding: 5px 10px 6px 10px;
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: 500;
+}
+header a:hover {
+    border-radius: 5px 5px 0px 0px;
+    background-color: var(--cor3);
+    color: var(--cor0);
+    transition: background-color 0.3s, color 0.3s;
 }
 main {
     background-color: var(--cor5);
@@ -37,10 +71,12 @@ h1 {
     color: var(--cor0);
 }
 h2 {
+    font-size: 2em;
     padding: 20px 0px 20px 20px;
     color: var(--cor0);
 }
 h3 {
+    font-size: 1.5em;
     padding: 20px 0px 20px 20px;
     color: var(--cor0);  
 }
@@ -84,14 +120,14 @@ footer > div > p {
     margin: auto;
     width: 55vw;
     height: 55vw;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 300px;
+    max-height: 300px;
 }
 footer > p {
     text-indent: none;
     text-align: center;
     color: var(--cor1);
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-weight: 400;
     padding: 0px 20vw 0px 20vw;
 }
@@ -100,8 +136,8 @@ footer > p {
     padding-bottom: 30px;
 }
 .icon {
-    width: 22px;
-    height: 22px;
+    width: 27px;
+    height: 27px;
     padding: 0px 2px 0px 2px;
 }
 span {
