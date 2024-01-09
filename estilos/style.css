@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 
 :root {
-    --cor0: #7900ac;
+    --cor0: #7900ac; /*7900ac*/
     --cor1: #9032ab;
     --cor2: #af69cd;
     --cor3: #cb9bde;
@@ -23,9 +23,17 @@
 body {
     background-color: var(--cor4);
 }
+
+
+
+                                    /* HEADER*/
+
+
+
 header {
     background-color: var(--cor0);
     min-height: 150px;
+    box-shadow: 0px 2px 20px #9032ab;
 }
 h1#titulo {
     font-size: 3em;
@@ -55,6 +63,13 @@ header a:hover {
     color: var(--cor0);
     transition: background-color 0.3s, color 0.3s;
 }
+
+
+
+                                    /*MAIN*/
+
+
+
 main {
     background-color: var(--cor5);
     margin: auto;
@@ -97,6 +112,90 @@ p {
     text-indent: 20px;
     line-height: 1.5em;
 }
+
+                                /* AVALIAÇÕES */
+
+#espacoavaliacoes {
+    display: block;
+    box-sizing: border-box;
+    background-color: #d6c8db;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#espacoavaliacoes h2 {
+    display: table;
+    margin: auto;
+    color: var(--cor5);
+    padding: 20px 20px 5px 20px;
+    border-bottom: 2px solid var(--cor5);
+}
+#divbacks {
+    padding: 10px;
+    text-align: center;
+}
+#artigoavaliacoes {
+    display: inline-flex;
+}
+.avaliacoes {
+    display: inline-block;
+    background-color: var(--cor5);
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    width: 200px;
+    min-height: 400px;
+
+    border: 2px solid var(--cor3);
+}
+.pavaliacoes {
+    text-align: justify;
+    padding: 15px;
+    font-size: 0.8em;
+}
+
+/*
+.primeiras {
+    opacity: 0;
+    display: none;
+} .segundas {
+    opacity: 1;
+    display: block;
+} .terceiras {
+    opacity: 0;
+    display: none;
+}
+*/
+
+#s1 {
+    display: none;
+} #s2 {
+    display: none;
+} #s3 {
+    display: none;
+}
+
+#s4 {
+    display: block;
+} #s5 {
+    display: block;
+} #s6 {
+    display: block;
+}
+
+#s7 {
+    display: none;
+} #s8 {
+    display: none;
+} #s9 {
+    display: none;
+}
+
+
+
+                                /* RODAPÉ */
+
+
+
 footer {
     background-color: var(--cor4);
     min-height: 500px;
@@ -143,7 +242,7 @@ footer > p {
     margin-left: 10px;
     margin-right: 10px;
 }
-span {
+footer span {
     display: table;
     margin: auto;
     margin-bottom: 20px;
@@ -155,4 +254,36 @@ p#email {
     padding: 0;
     margin: 0;
     text-indent: 0;
+}
+
+
+
+                                /* CLASSES */
+
+
+
+.noident {
+    text-indent: 0px;
+}
+.imgdeperfil {
+    margin-top: 15px;
+    width: 45px;
+    height: 45px;
+}
+.nomedeusuario {
+    text-align: center;
+}
+.estrelas {
+    text-align: center;
+    width: 60%;
+    height: 15px;
+}
+.setas {    
+    color: var(--cor5);
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.setas:hover {
+    color: var(--cor0);
 }
