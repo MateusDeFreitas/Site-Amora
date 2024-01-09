@@ -175,21 +175,23 @@ p {
 }
 
 #s4 {
-    display: block;
+    display: none;
 } #s5 {
-    display: block;
+    display: none;
 } #s6 {
-    display: block;
+    display: none;
 }
 
 #s7 {
-    display: none;
+    display: block;
 } #s8 {
-    display: none;
+    display: block;
 } #s9 {
+    display: block;
+}
+#espacoavaliacoesmobile {
     display: none;
 }
-
 
 
                                 /* RODAPÉ */
