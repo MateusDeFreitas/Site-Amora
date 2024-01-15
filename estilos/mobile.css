@@ -14,8 +14,14 @@ header ul{
     padding: 0;
     margin: 0;
 }
-menu {
-    display: none;
+.menu {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Adiciona uma transição de 0.5 segundos com efeito ease para a altura máxima */
+}
+
+.menu.expanded {
+    max-height: 300px; /* Ajuste a altura máxima conforme necessário */
 }
 header li {
     display: block;
@@ -114,19 +120,6 @@ span p {
     padding: 5px;
     font-size: 0.8em;
 }
-
-/*
-.primeiras {
-    opacity: 0;
-    display: none;
-} .segundas {
-    opacity: 1;
-    display: block;
-} .terceiras {
-    opacity: 0;
-    display: none;
-}
-*/
 
 #s1m {display: none;} 
 #s2m {display: none;} 

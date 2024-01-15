@@ -153,19 +153,6 @@ p {
     font-size: 0.8em;
 }
 
-/*
-.primeiras {
-    opacity: 0;
-    display: none;
-} .segundas {
-    opacity: 1;
-    display: block;
-} .terceiras {
-    opacity: 0;
-    display: none;
-}
-*/
-
 #s1 {
     display: none;
 } #s2 {
