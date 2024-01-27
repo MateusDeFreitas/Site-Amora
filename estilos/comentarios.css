@@ -61,6 +61,12 @@
     #s8mm {display: none;}
     #s9mm {display: block;}
 
+                                    /*FOTOS*/
+    #ftp {display: block;}
+    #ftg {display: none;}
+                                    /*CORPO*/
+    main {width: 95vw;}
+
 }
 
 @media screen and (max-width: 968px) {
