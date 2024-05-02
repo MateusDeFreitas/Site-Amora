@@ -118,7 +118,14 @@ p {
     text-indent: 20px;
     line-height: 1.5em;
 }
-
+main li {
+    padding: 5px 30px 0px 30px;
+    font-size: 0.9em;
+    text-indent: 20px;
+}
+main li::marker {
+    color: var(--cor1); 
+  }
                                 /* AVALIAÇÕES */
 
 #espacoavaliacoes {
@@ -149,7 +156,7 @@ p {
     margin-right: 5px;
     border-radius: 15px;
     width: 200px;
-    min-height: 400px;
+    min-height: 420px;
 
     border: 2px solid var(--cor3);
 }
@@ -265,8 +272,8 @@ p#email {
 }
 .imgdeperfil {
     margin-top: 15px;
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
 }
 .nomedeusuario {
     text-align: center;

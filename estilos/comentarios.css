@@ -44,13 +44,13 @@
     }
     .avaliacoesmenores {
         width: 200px;
-        min-height: 410px;
+        min-height: 430px;
     }
     .pavaliacoes {
         text-align: left;
         padding: 20px;
         font-size: 0.8em;
-    }
+    } 
     #s1mm {display: none;} 
     #s2mm {display: none;} 
     #s3mm {display: none;}
@@ -72,7 +72,7 @@
 @media screen and (max-width: 968px) {
     .avaliacoesmobile {
         width: 200px;
-        min-height: 410px;
+        min-height: 430px;
     }
     .pavaliacoes {
         text-align: left;

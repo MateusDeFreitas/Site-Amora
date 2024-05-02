@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amora skincare</title>
+    <link rel="shortcut icon" href="imagens/faviconcircular.ico" type="jpg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (max-width: 968px)">
+    <link rel="stylesheet" href="estilos/comentarios.css">
+</head>
+<body onresize="mudartamanho()">
+    <header>
+        <span id="conteinertitulo">
+            <h1 id="titulo">Ventosaterapia</h1>
+        </span>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+        <menu id="menu" class="menu">
+            <ul>
+                <!-- <li><a href="#">Home</a> -->
+                <!-- <li><a href="#">Quem somos</a> -->
+                <li><a href="limpeza-de-pele.html">Limpeza de pele</a>
+                <!-- <li><a href="ventosaterapia.html">Ventosaterapia</a> -->
+                <!-- <li><a href="#">Pelling</a> -->
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>
+                O que é Ventosaterapia?
+            </h2>
+            <img id="ftp" class="img1" src="imagens/ventosaterapia.jpg" alt="Mulher cuidando da pele">
+            <img id="ftg" class="img1" src="imagens/ventosaterapiaCortada.jpg" alt="Mulher cuidando da pele">
+            <p>
+                A ventosaterapia é um tratamento natural, milenar chinês, que cria vácuos de sucção na pele através do uso de ventosas eletrônicas ou de copos de vidro, acrílico ou silicone. Quando aplicadas em um local no corpo, as ventosas agem na circulação sanguínea, promovendo o relaxamento corporal, o alívio de dores, entre outros benefícios.
+            </p>
+            <h3>
+                Para que serve a Ventosaterapia?
+            </h3>
+            <p>
+                Entre os inúmeros benefícios, a ventosaterapia possibilita o relaxamento do corpo e da mente, fortalecimento dos vasos sanguíneos, reduz dores e inflamações, melhora o fluxo sanguíneo e a circulação, eliminação de contraturas musculares e pontos de tensão
+            </p>
+            <h3>
+                Seguem alguns benefícios da Ventosaterapia assim como algumas contraindicações
+            </h3>
+
+            <h4>
+                Ação anti-inflamatória
+            </h4>
+            <li>Alívio de dores musculares;</li>
+            <li>Estimula o metabolismo local cutâneo;</li>
+            <li>Aumenta a circulação sanguínea e fluxo linfático;</li>
+            <li>Melhora a função das glândulas sudoríparas e sebáceas;</li>
+            <h4>
+                Contraindicações
+            </h4>
+            <p>
+                Pessoas que possuem:
+            </p>
+            <li>varizes</li> 
+            <li>calibrosas</li>
+            <li>tromboses</li>
+            <li>diabetes e pressão alta descompensadas</li>
+            <li>febre</li>
+            <li>feridas na pele</li>
+            <li>doenças autoimunes</li>
+            <li>câncer</li>
+            <li>gravidez</li>
+            <li>fratura</li>
+        </article>
+    </main>
+    <footer>
+        <div>
+            <p>
+                Realce a sua beleza!
+            </p>
+        </div>
+        <img id="logo" src="imagens/logopng.png" alt="Logo Amora skincare">
+        <p id="fp">
+            Fale Conosco:
+        </p>
+        <p>
+            <a href="https://www.instagram.com/helenaesteticista.amora?igsh=Njlha3VtbWd1dW40" target="_blank"><img id="igicon" class="icon" src="imagens/icons8-instagram-64.png"></a>
+
+            <a href="https://wa.me/5511934088638" target="_blank"><img id="wpicon" class="icon" src="imagens/icons8-whatsapp-64.png"></a>
+
+            <a href="https://www.facebook.com/profile.php?id=61551698431153&mibextid=ZbWKwL" target="_blank"><img id="fbicon" class="icon" src="imagens/icons8-facebook-64.png"></a>
+
+
+            <a style="display: none;" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" target="_blank"><img class="icon" src="imagens/icons8-nova-mensagem-50.png"></a>
+        </p>
+        <br>
+        <span>
+            <p id="email">Email: amorahelena.skincare@gmail.com</p>
+        </span>
+    </footer>
+    <script>
+        function clickmenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("expanded");
+        }
+        function mudartamanho() {
+            if (window.innerWidth < 968) {
+                menu.classList.remove("expanded");
+            }
+        }
+    </script>
+</body>
+</html>
