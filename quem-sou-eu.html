@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amora skincare</title>
+    <link rel="shortcut icon" href="imagens/faviconcircular.ico" type="jpg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (max-width: 968px)">
+    <link rel="stylesheet" href="estilos/comentarios.css">
+</head>
+<body onresize="mudartamanho()">
+    <header>
+        <span id="conteinertitulo">
+            <h1 id="titulo">Sobre nós</h1>
+        </span>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+        <menu id="menu" class="menu">
+            <ul>
+                <!-- <li><a href="#">Home</a> -->
+                <!-- <li><a href="#">Quem somos</a> -->
+                <li><a href="limpeza-de-pele.html">Limpeza de pele</a>
+                <li><a href="ventosaterapia.html">Ventosaterapia</a>
+                <li><a href="peeling.html">Pelling</a>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>
+                Quem sou eu?
+            </h2>
+            <!--
+            <img id="ftp" class="img1" src="imagens/ventosaterapia.jpg" alt="Mulher cuidando da pele">
+            <img id="ftg" class="img1" src="imagens/ventosaterapiaCortada.jpg" alt="Mulher cuidando da pele">
+            -->
+            <p> 
+                Eu promovo bem-estar por meio de Terapias Integrativas e Tratamentos de Beleza para realçar a saúde da sua pele.
+                Sou Helena Freitas, professora, ventosaterapeuta, empreendedora na área de estética e terapias integrativas e graduanda em Biomedicina.
+                Opto por atendimentos personalizados com o intuito do bem-estar e autoestima de cada cliente. Contribuir para realçar a sua beleza é gratificante! Para saber mais sobre o meu trabalho entre em contato comigo.
+            </p>
+        </article>
+        <article id="espacoavaliacoes">
+            <h2>Avaliações</h2>
+            <div id="divbacks">
+                <article id="artigoavaliacoes">
+                    <span class="material-symbols-outlined setas" onclick="voltar()">arrow_back_ios</span>
+                    
+                    <span class="avaliacoes">
+                        <section id="s1" class="primeiras">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Roseane Santos</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Parabéns por ter conquistado seu espaço! 👏 Helena tem mãos de fada🌟. Atenta e acessível permite um momento único de autocuidado e relaxamento. Recomendo! E estou ansiosa para as novidades que está trazendo ⚘️👍</p>
+                        </section>
+
+                        <section id="s4" class="segundas">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Gabriely Freitas</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Lugar super acolhedor!! Atendimento muito bom e uma ótima profissional no espaço!!</p>
+                        </section>
+
+                        <section id="s7" class="terceiras">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Henrique Gasparino</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Atendimento excelente, ambiente limpo e organizado, Helena é uma profissional recomendável!</p>
+                        </section>
+                    </span>
+
+                    <span class="avaliacoes">
+                        <section id="s2" class="primeiras">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">André Comporte</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Helena é super atenciosa, explica direitinho todo o processo e os produtos que está usando. Volto mais vezes sim!</p>
+                        </section>
+
+                        <section id="s5" class="segundas">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Fabiano Vilela</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Atendimento ESPETACULAR
+                                Atento aos detalhes
+                                Voltarei sempre 
+                                Parabéns pelo profissionalismo
+                        </section>
+
+                        <section id="s8" class="terceiras">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Silmara _sousa</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Nada como a confiança e segurança de estar em boas mãos, o atendimento profissional o lugar é super agradável!!!</p>
+                        </section>
+                    </span>
+
+                    <span class="avaliacoes">
+                        <section id="s3" class="primeiras">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Débora Buragosque</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Um espaço ótimo, muito bem organizado e de fácil acesso,muito próximo ao metrô. Atendimento ótimo de equipe profissional, ameiii!.</p>
+                        </section>
+
+                        <section id="s6" class="segundas">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Itamara sena</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Amei o atendimento e o tratamento super funcionou, indico muito.</p>
+                        </section>
+
+                        <section id="s9" class="terceiras">
+                            <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                            
+                            <p class="nomedeusuario noident">Andreia Mara dos Santos</p>
+                            <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                            <p class="noident pavaliacoes">Super indico !!!!  Maravilhosa Massagem relaxante e ventosa !!!</p>
+                        </section>
+                    </span>
+                    <span class="material-symbols-outlined setas" onclick="ir()">arrow_forward_ios</span>
+                </article>
+            </div>
+        </article>
+
+             <!-- DIVISÃO DE ESPAÇOS PARA AVALIAÇÃO -->
+
+
+             <article id="espacoavaliacoesmobile">
+                <h2>Avaliações</h2>
+                <div id="divbacksmobile">
+                    <article id="artigoavaliacoesmobile">
+                        <span class="material-symbols-outlined setas" onclick="voltarmobile()">arrow_back_ios</span>
+                        
+                        <span id="avaliacoesmobile1" class="avaliacoesmobile">
+                            <section id="s1m" class="primeirasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Roseane Santos</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Parabéns por ter conquistado seu espaço! 👏 Helena tem mãos de fada🌟. Atenta e acessível permite um momento único de autocuidado e relaxamento. Recomendo! E estou ansiosa para as novidades que está trazendo ⚘️👍</p>
+                            </section>
+    
+                                <section id="s3m" class="primeirasmobile">
+                                    <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                    
+                                    <p class="nomedeusuario noident">Débora Buragosque</p>
+                                    <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                    <p class="noident pavaliacoes">Um espaço ótimo, muito bem organizado e de fácil acesso,muito próximo ao metrô. Atendimento ótimo de equipe profissional, ameiii!.</p>
+                                </section>
+    
+                            <section id="s5m" class="segundasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Fabiano Vilela</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Atendimento ESPETACULAR <br>
+                                    Atento aos detalhes <br>
+                                    Voltarei sempre <br>
+                                    Parabéns pelo profissionalismo</p>
+                            </section>
+    
+                            <section id="s7m" class="terceirasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Henrique Gasparino</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Atendimento excelente, ambiente limpo e organizado, Helena é uma profissional recomendável!</p>
+                            </section>
+                        </span>
+    
+                        <span id="avaliacoesmobile2" class="avaliacoesmobile">
+                            <section id="s2m" class="primeirasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">André Comporte</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Helena é super atenciosa, explica direitinho todo o processo e os produtos que está usando. Volto mais vezes sim!</p>
+                            </section>
+    
+                            <section id="s4m" class="segundasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Gabriely Freitas</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Lugar super acolhedor!! Atendimento muito bom e uma ótima profissional no espaço!!</p>
+                            </section>
+    
+                            <section id="s6m" class="segundasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Itamara sena</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Amei o atendimento e o tratamento super funcionou, indico muito.</p>
+                            </section>
+    
+                            <section id="s8m" class="terceirasmobile">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Silmara _sousa</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Nada como a confiança e segurança de estar em boas mãos, o atendimento profissional o lugar é super agradável!!!</p>
+                            </section>
+                        </span>
+    
+                        <span class="material-symbols-outlined setas" onclick="irmobile()">arrow_forward_ios</span>
+                    </article>
+                </div>
+            </article>
+    
+    
+            <!-- SEGUNDA DIVISÃO DE ESPAÇOS PARA AVALIAÇÃO -->
+    
+    
+            <article id="espacoavaliacoesmenores">
+                <h2>Avaliações</h2>
+                <div id="divbacksmenores">
+                    <article id="artigoavaliacoesmobile">
+                        <span class="material-symbols-outlined setas" onclick="voltarmenores()">arrow_back_ios</span>
+                        
+                        <span class="avaliacoesmenores">
+                            <section id="s1mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Roseane Santos</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Parabéns por ter conquistado seu espaço! 👏 Helena tem mãos de fada🌟. Atenta e acessível permite um momento único de autocuidado e relaxamento. Recomendo! E estou ansiosa para as novidades que está trazendo ⚘️👍</p>
+                            </section>
+    
+                                <section id="s3mm">
+                                    <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                    
+                                    <p class="nomedeusuario noident">Débora Buragosque</p>
+                                    <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                    <p class="noident pavaliacoes">Um espaço ótimo, muito bem organizado e de fácil acesso,muito próximo ao metrô. Atendimento ótimo de equipe profissional, ameiii!.</p>
+                                </section>
+    
+                            <section id="s5mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Fabiano Vilela</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Atendimento ESPETACULAR <br>
+                                    Atento aos detalhes <br>
+                                    Voltarei sempre <br>
+                                    Parabéns pelo profissionalismo</p>
+                            </section>
+    
+                            <section id="s7mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Henrique Gasparino</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Atendimento excelente, ambiente limpo e organizado, Helena é uma profissional recomendável!</p>
+                            </section>
+                        
+                            <section id="s2mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">André Comporte</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Helena é super atenciosa, explica direitinho todo o processo e os produtos que está usando. Volto mais vezes sim!</p>
+                            </section>
+    
+                            <section id="s4mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Gabriely Freitas</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Lugar super acolhedor!! Atendimento muito bom e uma ótima profissional no espaço!!</p>
+                            </section>
+    
+                            <section id="s6mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Itamara sena</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Amei o atendimento e o tratamento super funcionou, indico muito.</p>
+                            </section>
+    
+                            <section id="s8mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Silmara _sousa</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Nada como a confiança e segurança de estar em boas mãos, o atendimento profissional o lugar é super agradável!!!</p>
+                            </section>
+    
+                            <section id="s9mm">
+                                <img class="imgdeperfil" src="imagens/logopng.png" alt="Foto de perfil">
+                                
+                                <p class="nomedeusuario noident">Andreia Mara dos Santos</p>
+                                <img class="estrelas" src="imagens/estrelas/5estrelas.jpg" alt="5 estrelas">
+                                <p class="noident pavaliacoes">Super indico !!!!  Maravilhosa Massagem relaxante e ventosa !!!</p>
+                            </section>
+                        </span>
+    
+                        <span class="material-symbols-outlined setas" onclick="irmenores()">arrow_forward_ios</span>
+                    </article>
+                </div>
+            </article>
+    </main>
+    <footer>
+        <div>
+            <p>
+                Realce a sua beleza!
+            </p>
+        </div>
+        <img id="logo" src="imagens/logopng.png" alt="Logo Amora skincare">
+        <p id="fp">
+            Fale Conosco:
+        </p>
+        <p>
+            <a href="https://www.instagram.com/helenaesteticista.amora?igsh=Njlha3VtbWd1dW40" target="_blank"><img id="igicon" class="icon" src="imagens/icons8-instagram-64.png"></a>
+
+            <a href="https://wa.me/5511934088638" target="_blank"><img id="wpicon" class="icon" src="imagens/icons8-whatsapp-64.png"></a>
+
+            <a href="https://www.facebook.com/profile.php?id=61551698431153&mibextid=ZbWKwL" target="_blank"><img id="fbicon" class="icon" src="imagens/icons8-facebook-64.png"></a>
+
+
+            <a style="display: none;" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" target="_blank"><img class="icon" src="imagens/icons8-nova-mensagem-50.png"></a>
+        </p>
+        <br>
+        <span>
+            <p id="email">Email: amorahelena.skincare@gmail.com</p>
+        </span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
